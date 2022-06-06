@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myDadApp", "myDadApp\myDadApp.csproj", "{7EF19104-C176-447E-8BE5-2EC21E326603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myDadApp", "myDadApp\myDadApp.csproj", "{7EF19104-C176-447E-8BE5-2EC21E326603}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Infra", "Infra\Infra.deployproj", "{7C2FEF40-D9C2-4F08-8C9C-43FC8726FAB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{D9288549-A66B-4CB2-8A0B-90E301B0EFB1}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\du66.yml = .github\workflows\du66.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{7EF19104-C176-447E-8BE5-2EC21E326603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EF19104-C176-447E-8BE5-2EC21E326603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EF19104-C176-447E-8BE5-2EC21E326603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2FEF40-D9C2-4F08-8C9C-43FC8726FAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2FEF40-D9C2-4F08-8C9C-43FC8726FAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2FEF40-D9C2-4F08-8C9C-43FC8726FAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2FEF40-D9C2-4F08-8C9C-43FC8726FAB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
